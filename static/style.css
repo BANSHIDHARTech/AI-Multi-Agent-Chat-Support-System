@@ -1,0 +1,94 @@
+/* Typing indicator animation */
+.typing {
+    display: flex;
+    align-items: center;
+}
+
+.typing span {
+    height: 8px;
+    width: 8px;
+    background: #6366F1;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 3px;
+    animation: bounce 1.5s infinite ease-in-out;
+}
+
+.typing span:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.typing span:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+.typing span:nth-child(3) {
+    animation-delay: 0.4s;
+    margin-right: 0;
+}
+
+@keyframes bounce {
+    0%, 60%, 100% {
+        transform: translateY(0);
+    }
+    30% {
+        transform: translateY(-4px);
+    }
+}
+
+/* Chat container scrollbar styling */
+#chat-container::-webkit-scrollbar {
+    width: 8px;
+}
+
+#chat-container::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 4px;
+}
+
+#chat-container::-webkit-scrollbar-thumb {
+    background: #d1d5db;
+    border-radius: 4px;
+}
+
+#chat-container::-webkit-scrollbar-thumb:hover {
+    background: #a5adbb;
+}
+
+/* Message animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.flex.items-start.mb-4 {
+    animation: fadeIn 0.3s ease-out forwards;
+}
+
+/* Focus styles for input */
+#chat-input:focus {
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.2);
+}
+
+/* Transition for buttons */
+button {
+    transition: all 0.2s ease;
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+.example-query {
+    transition: all 0.2s ease;
+}
+
+.example-query:hover {
+    transform: translateY(-1px);
+}

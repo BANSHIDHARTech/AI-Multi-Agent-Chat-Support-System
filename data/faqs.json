@@ -1,0 +1,15 @@
+{
+    "greeting": "Hello! Welcome to our support chat. How can I help you today?",
+    "farewell": "Thank you for chatting with us. Have a great day!",
+    "help": "I can help you with account issues, orders, product information, or creating support tickets. Just let me know what you need!",
+    "business_hours": "Our support team is available Monday to Friday, 9 AM to 6 PM Eastern Time.",
+    "shipping": "We typically ship orders within 1-2 business days. Standard delivery takes 3-5 business days, while express shipping arrives in 1-2 business days. International shipping may take 7-14 business days.",
+    "returns": "We accept returns within 30 days of purchase. Items must be in original condition with all packaging. To start a return, log into your account or contact our support team.",
+    "warranty": "Our products come with a 1-year limited warranty covering manufacturing defects. For warranty claims, please contact our support team with your order number and description of the issue.",
+    "payment_methods": "We accept all major credit cards (Visa, MasterCard, American Express), PayPal, and Apple Pay. Payment information is securely encrypted.",
+    "order_tracking": "You can track your order by logging into your account or using the tracking number sent to your email after shipping.",
+    "cancel_order": "Orders can be cancelled within 1 hour of placement. After that, please contact support for assistance.",
+    "product_availability": "Product availability is shown in real-time on each product page. You can also sign up for notifications when out-of-stock items become available.",
+    "contact": "You can reach our support team at support@example.com or call us at (555) 123-4567 during business hours.",
+    "default": "I understand you have a question. Could you please provide more details so I can better assist you? You can ask about our products, services, orders, shipping, returns, or any other support topics."
+}
